@@ -7,15 +7,15 @@ After organizing the dataframe to only show current applicants the dataframe was
 
 ![totals](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/sample_numbers.png)
 
-This datafram was then ran through the six different types of machine learning to determine balanced accuracy scores and the presision and recall scores. The results are as follows:
+This dataframe was then ran through the six different types of machine learning to determine balanced accuracy scores and the presision and recall scores. The results are as follows:
 
 ### Naive Random Oversampling
 
 ![nro_balance](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/nro_balance.png)
 ![nro_class](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/nro_class.png)
 
-- The balanced accuracy score is 64.9%
-- High risk applications had a precision score of 1% and a recall score of 62%
+- The balanced accuracy score is 64.6%
+- High risk applications had a precision score of 1% and a recall score of 61%
 - Low risk applications had a precisoin score of 100% and a recall score of 68%
 
 ### SMOTE Oversampling
@@ -23,25 +23,27 @@ This datafram was then ran through the six different types of machine learning t
 ![smote_balance](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/smote_balance.png)
 ![smote_class](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/smote_class.png)
 
-- The balanced accuracy score is 64.4%
-- High risk applications had a precision score of 1% and a recall score of 63%
+- The balanced accuracy score is 63.9%
+- High risk applications had a precision score of 1% and a recall score of 62%
 - Low risk applications had a precision score of 100% and a recall score of 66% 
+
 ### Cluster Centroid Undersampling
 
 ![cc_balance](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/cc_balance.png)
 ![cc_class](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/cc_class.png)
 
-- The balanced accuracy score is 64.4%
+- The balanced accuracy score is 52.9%
 - High Risk applications had a precision score of 1% and a recall score of 61%
 - Low risk applications had a precision score of 100% and a recall score of 45%
+
 ### SMOTEENN 
 
 ![smoteenn_balance](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/smoteenn_balance.png)
 ![smoteen_class](https://github.com/JTGonzaga/Credit_Risk_Analysis/blob/main/Analysis/smoteenn_class.png)
 
-- The balanced accuracy score was 52.9%
+- The balanced accuracy score was 65%
 - High Risk applications had a precision score of 1% and a recall score of 71%
-- Low risk applications had a precision score of 100% and a recall score of 56%
+- Low risk applications had a precision score of 100% and a recall score of 59%
 
 
 ### Balanced Random Forest Classifier
